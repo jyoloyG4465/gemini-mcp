@@ -19,9 +19,9 @@
       "args": ["-y", "@playwright/mcp@latest"]
     },
     "excel-server": {
-    "command": "uvx",
-    "args": ["excel-mcp-server", "stdio"],
-    "trust": true
+      "command": "uvx",
+      "args": ["excel-mcp-server", "stdio"],
+      "trust": true
     },
 		"postgres": {
 			"command": "npx",
@@ -32,13 +32,13 @@
 			]
 		},
     "weather": {
-        "command": "/home/XXXXXX/gemini-mcp/venv/bin/uv",
-        "args": [
-            "--directory",
-            "/home/XXXXXX/gemini-mcp/dajyare",
-            "run",
-            "dajyare.py"
-        ]
+      "command": "/home/XXXXXX/gemini-mcp/venv/bin/uv",
+      "args": [
+          "--directory",
+          "/home/XXXXXX/gemini-mcp/dajyare",
+          "run",
+          "dajyare.py"
+      ]
     }
   }
 }
