@@ -30,6 +30,15 @@
 				"@modelcontextprotocol/server-postgres",
 				"postgresql://pguser:pgpassword@localhost:5432/postgres"
 			]
-		}
+		},
+    "weather": {
+        "command": "/home/XXXXXX/gemini-mcp/venv/bin/uv",
+        "args": [
+            "--directory",
+            "/home/XXXXXX/gemini-mcp/dajyare",
+            "run",
+            "dajyare.py"
+        ]
+    }
   }
 }
